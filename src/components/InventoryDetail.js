@@ -11,9 +11,9 @@ function InventoryDetail(props) {
           <p><em>${inventory.price}</em> - <em>Weight {inventory.weight} lbs</em></p>
           <p>Description: {inventory.description}</p>
           <p>{inventory.quantity} quantity remaining</p>
-          <button className='buttonStyle' onClick={ props.onClickingEdit }>Update Inventory</button>
-          <button className='buttonStyle' onClick={() => onClickingDelete(inventory.id) }>Remove Inventory</button>
-          <button className='buttonStyle' onClick={() => onClickingDecrement(inventory.id) }>Sell one piece of inventory</button>
+          <button className='buttonStyle' onClick={ props.onClickingEdit }>Update {inventory.name} Inventory</button>
+          <button className='buttonStyle' onClick={() => onClickingDelete(inventory.id) }>Remove {inventory.name} Inventory</button>
+          <button className='buttonStyle' onClick={() => onClickingDecrement(inventory.id) }>Sell one {inventory.name}</button>
           <hr/>
     </React.Fragment>
   );
