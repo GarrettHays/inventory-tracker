@@ -8,7 +8,7 @@ function NewInventoryForm(props) {
 
   function handleNewInventoryFormSubmission(event){
     event.preventDefault();
-    props.onNewInventoryCreation({name: event.target.name.value, brand: event.target.brand.value, price: event.target.price.value, weight: event.target.weight.value, description: event.target.description.value, id: v4()});
+    props.onNewInventoryCreation({name: event.target.name.value, brand: event.target.brand.value, price: parseInt(event.target.price.value), weight: parseInt(event.target.weight.value), quantity: parseInt(event.target.quantity.value), description: event.target.description.value, id: v4()});
   }
 
   return (
