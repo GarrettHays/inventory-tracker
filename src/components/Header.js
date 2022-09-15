@@ -11,7 +11,7 @@ function Header() {
   return (
     <React.Fragment>
       <div style={headerStyles}>
-        <h1>Inventory Tracker</h1>
+        <h1>The Inventory Tracker</h1>
       </div>
     </React.Fragment>
   );
