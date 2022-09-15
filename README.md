@@ -2,7 +2,7 @@
 
 ## By Garrett Hays
 
-#### A webpage built to allow users to add and keep track of inventory items. This webpage was built using JavaScript, CSS, HTML & React.
+#### A webpage that allows users to add and keep track of inventory items. This webpage was built using JavaScript, CSS, HTML & React.
 
 ## Technologies Used
 
@@ -37,4 +37,4 @@
 
 [MIT](LICENSE)
 
-Copyright (c) 9/9/2022 Garrett Hays
+Copyright (c) 9/15/2022 Garrett Hays
