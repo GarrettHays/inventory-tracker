@@ -7,7 +7,7 @@ function InventoryDetail(props) {
   return (
     <React.Fragment>
           <h1>Inventory Detail</h1>
-          <h3>Brand: {inventory.brand} - Name: {inventory.name}</h3>
+          <h3>Brand: {inventory.brand} - Item Name: {inventory.name}</h3>
           <p><em>${inventory.price}</em> - <em>Weight {inventory.weight} lbs</em></p>
           <p>Description: {inventory.description}</p>
           <p>{inventory.quantity} quantity remaining</p>
