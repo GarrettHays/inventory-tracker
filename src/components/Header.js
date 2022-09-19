@@ -5,7 +5,7 @@ function Header() {
 
   const headerStyles = {
     textAlign: 'center',
-    textDecoration: 'underline'
+    textDecoration: 'underline dotted'
   }
 
   return (
